@@ -20,7 +20,6 @@ while(i<a.length()){
 int index_Kmp(string& a,string& b,int next[]){
     //a为模式串，b为主串
     int j=0,i=0;
-   // cout<<a.length()<<b.length();
     while(j<(int)a.length()&&i<b.length()){
         if(a[j]==b[i]||j==-1)
         {
