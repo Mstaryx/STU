@@ -9,3 +9,7 @@
 .vs/
 *.sln
 .sln/
+x64
+.idea/
+*.vcxproj*
+*.user
