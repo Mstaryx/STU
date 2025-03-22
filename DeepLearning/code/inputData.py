@@ -2,7 +2,7 @@ from conda.exports import root_dir
 from torch.utils.data import Dataset
 from PIL import Image
 import os
-
+#导入数据练习
 class MyData(Dataset):
     def __init__(self, root_dir,label_dir):
         self.root_dir = root_dir
